@@ -8,9 +8,14 @@ libpcap must be installed. In linux you may need to `sudo apt install libpcap-de
 Install Xcode then run: `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
 
 ## Network Permissions
+### Mac
 You may need to adjust permissions for your network adapter(s) in order to be able to run this script without
 the need of using sudo
 https://stackoverflow.com/questions/41126943/wireshark-you-dont-have-permission-to-capture-on-that-device-mac
+
+### Raspberry pi
+run the following in a terminal window
+```sudo setcap 'cap_net_raw,cap_net_admin+eip' $(readlink -f $(which node)````
 
 Configuration
 -------------
