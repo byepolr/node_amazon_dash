@@ -32,3 +32,7 @@ you will need to create a file called *config.json*
   }
 }
 ```
+
+Run
+---
+``` $ node index.js ```
