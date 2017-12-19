@@ -1,0 +1,32 @@
+{
+  "name": "node_amazon_dash",
+  "version": "1.0.0",
+  "description": "A NodeJS Project to Work with Amazon Dash",
+  "main": "index.js",
+  "dependencies": {
+    "yargs": "10.0.3",
+    "request": "2.83.0",
+    "node-dash-button": "0.6.1",
+    "async": "2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dash": "./bin/dash"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byepolr/node_amazon_dash.git"
+  },
+  "keywords": [
+    "amazon",
+    "dash"
+  ],
+  "author": "Jason Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byepolr/node_amazon_dash/issues"
+  },
+  "homepage": "https://github.com/byepolr/node_amazon_dash#readme"
+}
