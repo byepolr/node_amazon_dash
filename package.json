@@ -2,7 +2,7 @@
   "name": "node_amazon_dash",
   "version": "1.0.0",
   "description": "A NodeJS Project to Work with Amazon Dash",
-  "main": "index.js",
+  "main": "app.js",
   "dependencies": {
     "yargs": "10.0.3",
     "request": "2.83.0",
@@ -13,7 +13,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "dash": "./bin/dash"
+    "node_amazon_dash": "./app.js"
   },
   "repository": {
     "type": "git",
