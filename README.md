@@ -15,7 +15,7 @@ https://stackoverflow.com/questions/41126943/wireshark-you-dont-have-permission-
 
 ### Raspberry pi
 run the following in a terminal window
-```sudo setcap 'cap_net_raw,cap_net_admin+eip' $(readlink -f $(which node)````
+```sudo setcap 'cap_net_raw,cap_net_admin+eip' $(readlink -f $(which node)```
 
 Configuration
 -------------
