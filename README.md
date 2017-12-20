@@ -44,4 +44,15 @@ you will need to create a file called *config.json*
 
 Run
 ---
-``` $ node app.js ```
+``` $ node app.js --config_file=${HOME}/config.json ```
+
+Global Run
+----------
+You can install this globally and then just run this like a shell command
+
+## Install
+run the following command in the repo
+``` $ npm install -g ```
+
+## Run
+``` $ node_amazon_dash --config_file=${HOME}/config.json ```

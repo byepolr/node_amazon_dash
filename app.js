@@ -1,4 +1,8 @@
-var config = require('./config.json');
+#! /usr/bin/env node
+var argv = require('yargs').argv;
+var config_file = (argv.config_file === undefined) ? './config.json' : argv.config_file;
+
+var config = require(config_file);
 var request = require('request');
 var dash_button = require('node-dash-button');
 
