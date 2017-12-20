@@ -55,7 +55,7 @@ run the following command in the repo
 ``` $ npm install -g ```
 
 ## Run
-``` $ node_amazon_dash --config_file=${HOME}/config.json ```
+``` $ amazon_dash --config_file=${HOME}/config.json ```
 
 Raspberry pi Service
 --------------------
@@ -66,7 +66,7 @@ Description=Amazon Dash Button Action Trigger
 After=network.target
 
 [Service]
-ExecStart=/home/pi/node_amazon_dash/app.js --config_file=/home/pi/.dash_config.json
+ExecStart=/home/pi/nodejs_amazon_dash_button/app.js --config_file=/home/pi/.dash_config.json
 WorkingDirectory=/home/pi
 StandardOutput=inherit
 StandardError=inherit
