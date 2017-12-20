@@ -2,6 +2,10 @@
 
 Prerequisites
 -----------
+# Own a Dash
+[Get an Amazon Dash here](https://www.amazon.com/s/?tag=tied2you-20&field-keywords=amazon+dash+button)
+
+# libpcap
 libpcap must be installed. In linux you may need to `sudo apt install libpcap-dev`, mac `brew install libpcap`
 
 ## osMac users
