@@ -1,7 +1,7 @@
 {
-  "name": "node_amazon_dash",
+  "name": "nodejs_amazon_dash",
   "version": "1.0.0",
-  "description": "A NodeJS Project to Work with Amazon Dash",
+  "description": "A NodeJS Project to easily integrate Amazon Dash Button with IFTTT",
   "main": "app.js",
   "dependencies": {
     "yargs": "10.0.3",
@@ -17,16 +17,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/byepolr/node_amazon_dash.git"
+    "url": "git+https://github.com/byepolr/nodejs_amazon_dash.git"
   },
   "keywords": [
+    "amazon dash",
+    "ifttt",
+    "raspberry pi",
+    "pi",
     "amazon",
     "dash"
   ],
   "author": "Jason Jones",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/byepolr/node_amazon_dash/issues"
+    "url": "https://github.com/byepolr/nodejs_amazon_dash/issues"
   },
-  "homepage": "https://github.com/byepolr/node_amazon_dash#readme"
+  "homepage": "https://github.com/byepolr/nodejs_amazon_dash#readme"
 }
