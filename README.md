@@ -17,6 +17,17 @@ https://stackoverflow.com/questions/41126943/wireshark-you-dont-have-permission-
 run the following in a terminal window
 ```sudo setcap 'cap_net_raw,cap_net_admin+eip' $(readlink -f $(which node)```
 
+Setup Amazon Dash
+-----------------
+# First time Dash Setup
+Follow Amazon's instructions to configure your button to send messages when you push them but not actually order anything. When you get a Dash button, Amazon gives you a list of setup instructions to get going. Just follow this list of instructions, but don’t complete the final step (#3 I think) `Do not select a product`, just exit the app.
+
+# Find a Dash
+To find a dash on your network, run the following from the repo
+```
+$ node node_modules/node-dash-button/bin/findbutton
+```
+
 IFTTT Webhooks
 --------------
 https://ifttt.com/maker_webhooks
