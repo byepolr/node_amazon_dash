@@ -86,4 +86,4 @@ WantedBy=multi-user.target
 ``` $ sudo systemctl status amazon_dash.service ```
 
 # enable service
-``` sudo systemctl enable myscript.service ```
+``` sudo systemctl enable amazon_dash.service ```
