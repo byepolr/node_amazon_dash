@@ -56,3 +56,31 @@ run the following command in the repo
 
 ## Run
 ``` $ node_amazon_dash --config_file=${HOME}/config.json ```
+
+Raspberry pi Service
+--------------------
+* $ sudo vim /lib/systemd/system/amazon_dash.service *
+```
+[Unit]
+Description=Amazon Dash Button Action Trigger
+After=network.target
+
+[Service]
+ExecStart=/home/pi/node_amazon_dash/app.js --config_file=/home/pi/.dash_config.json
+WorkingDirectory=/home/pi
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+```
+# start the service
+sudo systemctl start amazon_dash.service
+
+# stop service
+sudo systemctl stop amazon_dash.service
+
+# sevice status
+sudo systemctl status amazon_dash.service
