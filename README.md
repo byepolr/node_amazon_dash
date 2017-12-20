@@ -59,7 +59,7 @@ run the following command in the repo
 
 Raspberry pi Service
 --------------------
-* $ sudo vim /lib/systemd/system/amazon_dash.service *
+*$ sudo vim /lib/systemd/system/amazon_dash.service *
 ```
 [Unit]
 Description=Amazon Dash Button Action Trigger
@@ -77,10 +77,10 @@ User=pi
 WantedBy=multi-user.target
 ```
 # start the service
-sudo systemctl start amazon_dash.service
+``` $ sudo systemctl start amazon_dash.service ```
 
 # stop service
-sudo systemctl stop amazon_dash.service
+``` $ sudo systemctl stop amazon_dash.service ```
 
 # sevice status
-sudo systemctl status amazon_dash.service
+``` $ sudo systemctl status amazon_dash.service ```
