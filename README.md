@@ -1,4 +1,4 @@
-# node_amazon_dash
+# Node.js Amazon Dash Button IFTTT Integration
 
 Prerequisites
 -----------
