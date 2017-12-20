@@ -59,7 +59,7 @@ run the following command in the repo
 
 Raspberry pi Service
 --------------------
-*$ sudo vim /lib/systemd/system/amazon_dash.service *
+``` $ sudo vim /lib/systemd/system/amazon_dash.service ```
 ```
 [Unit]
 Description=Amazon Dash Button Action Trigger
