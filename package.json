@@ -7,6 +7,7 @@
     "yargs": "10.0.3",
     "request": "2.83.0",
     "node-dash-button": "0.6.1",
+    "tuyapi": "2.0.1",
     "async": "2.6.0"
   },
   "scripts": {
