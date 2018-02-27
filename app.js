@@ -16,7 +16,7 @@ var actions = {
 
 // Register dash buttons that we want to listen to
 dash_button_keys = Object.keys(config.buttons);
-var dash = dash_button(dash_button_keys, null, null, 'all');
+var dash = dash_button(dash_button_keys, null, 10000, 'all');
 
 function ifttt_webhook(button){
   event_id = button.id
